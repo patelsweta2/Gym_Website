@@ -9,10 +9,10 @@ const NavList = () => {
   };
   return (
     <>
-      <ul className="flex gap-9 text-[16px] font-medium xl:none">
+      <ul className="text-white flex gap-9 text-[16px] font-medium xl:none">
         <li
           style={{ transition: "all 0.3s" }}
-          className=" cursor-pointer hover:text-[#ff0336]"
+          className="cursor-pointer hover:text-[#ff0336]"
         >
           <a href="/">Home</a>
         </li>

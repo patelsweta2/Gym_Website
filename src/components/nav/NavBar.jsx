@@ -2,22 +2,22 @@ import { useState } from "react";
 // import Logo from "../../images/logo/logo.png";
 import Logo from "../../images/logo/logo.svg";
 import NavList from "./NavList";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPlus,
-  faXmark,
-  faLocationDot,
-  faPhone,
-  faEnvelope,
-  faBars,
-  faChartBar,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
-import {
-  faTwitter,
-  faInstagram,
-  faFacebookF,
-} from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faPlus,
+//   faXmark,
+//   faLocationDot,
+//   faPhone,
+//   faEnvelope,
+//   faBars,
+//   faChartBar,
+//   faUser,
+// } from "@fortawesome/free-solid-svg-icons";
+// import {
+//   faTwitter,
+//   faInstagram,
+//   faFacebookF,
+// } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import LogoSide from "../../images/logo/logo-footer.svg";
 import SideImg1 from "../../images/gallery/gal1.jpg";
@@ -93,10 +93,9 @@ const NavBar = () => {
                 hamburger ? "translate-x-0" : "-translate-x-full"
               } `}
             >
-              <FontAwesomeIcon
+              <i
                 onClick={toggleHamburgerMenu}
-                icon={faXmark}
-                className="text-[#ff0336] text-[3.3rem] cursor-pointer self-end"
+                className="fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer self-end"
               />
               {/* links */}
               <ul className="text-center flex flex-col gap-10 absolute top-[50%] left-[50%] -translate-y-[50%]">
@@ -183,10 +182,9 @@ const NavBar = () => {
                 {/* logo & X */}
                 <div className="flex justify-between items-center">
                   <img src={LogoSide} alt="logo_img" className="w-[13rem]" />
-                  <FontAwesomeIcon
+                  <i
                     onClick={toggleSidebar}
-                    icon={faXmark}
-                    className="text-[#ff0336] text-[3.3rem] cursor-pointer"
+                    className="fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer"
                   />
                 </div>
                 {/* about-us */}
@@ -240,24 +238,15 @@ const NavBar = () => {
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[2rem] font-bold">Contact Info</h3>
                   <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <FontAwesomeIcon
-                      icon={faLocationDot}
-                      className="text-[#ff0336]"
-                    />
+                    <i className=" fa-solid fa-location-dot text-[#ff0336]" />
                     &nbsp; Ram Krishna Nagar, patna
                   </p>
                   <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <FontAwesomeIcon
-                      icon={faPhone}
-                      className="text-[#ff0336]"
-                    />
+                    <i className="fa-solid fa-phone text-[#ff0336]" />
                     +91- 1000300670
                   </p>
                   <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <FontAwesomeIcon
-                      icon={faEnvelope}
-                      className="text-[#ff0336]"
-                    />
+                    <i className="fa-solid fa-envelope text-[#ff0336]" />
                     &nbsp; gymabc@gxmail.com
                   </p>
                 </div>
@@ -266,45 +255,31 @@ const NavBar = () => {
                   <h3 className="text-[2rem] font-bold">Follow Us</h3>
                   <div className="flex gap-5">
                     <span className="bg-[#ff0336] rounded-full py-[12px] px-[17px] cursor-pointer">
-                      <FontAwesomeIcon
-                        icon={faFacebookF}
-                        className="text-[2.2rem] text-white"
-                      />
+                      <i className="fa-brands fa-facebook-f text-[2.2rem] text-white" />
                     </span>
                     <span className="bg-[#ff0336] rounded-full py-[12px] px-[17px] cursor-pointer">
-                      <FontAwesomeIcon
-                        icon={faTwitter}
-                        className="text-[2.2rem] text-white"
-                      />
+                      <i className="fa-brands fa-twitter text-[2.2rem] text-white" />
                     </span>
                     <span className="bg-[#ff0336] rounded-full py-[12px] px-[17px] cursor-pointer">
-                      <FontAwesomeIcon
-                        icon={faInstagram}
-                        className="text-[2.2rem] text-white"
-                      />
+                      <i className="fa-brands fa-instagram text-[2.2rem] text-white" />
                     </span>
                   </div>
                 </div>
               </div>
             </div>
             {/* hamburger */}
-            <FontAwesomeIcon
+            <i
               onClick={toggleHamburgerMenu}
-              icon={faBars}
-              className="text-white hidden text-4xl cursor-pointer hover:text-[#ff0336] ease-in duration-200"
+              className="fa-bars fa-solid text-white hidden text-4xl cursor-pointer hover:text-[#ff0336] ease-in duration-200"
             />
             {/* account */}
             <Link onClick={goTop} to="/signup" title="signup_button">
-              <FontAwesomeIcon
-                icon={faUser}
-                className="text-white text-4xl cursor-pointer hover:text-[#ff0336] ease-in duration-200"
-              />
+              <i className="fa-regular fa-user text-white text-4xl cursor-pointer hover:text-[#ff0336] ease-in duration-200" />
             </Link>
             {/* sideBar */}
-            <FontAwesomeIcon
+            <i
               onClick={toggleSidebar}
-              icon={faChartBar}
-              className="text-white text-4xl cursor-pointer hover:text-[#ff0336] ease-in duration-200"
+              className="fa-regular fa-chart-bar text-white text-4xl cursor-pointer hover:text-[#ff0336] ease-in duration-200"
             />
           </div>
           {/* spin box */}
@@ -316,9 +291,8 @@ const NavBar = () => {
               onMouseLeave={stopSpin}
               className="flex items-center"
             >
-              <FontAwesomeIcon
-                icon={faPlus}
-                className={`bg-[#FF0336] text-white text-2xl py-3 px-4 rounded-md ${
+              <i
+                className={`fa-solid fa-plus bg-[#FF0336] text-white text-2xl py-3 px-4 rounded-md ${
                   spin ? "nav-btn-hover" : ""
                 }`}
               />
