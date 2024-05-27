@@ -96,7 +96,10 @@ body {
 }
 
 .card-item-div:hover {
-  background-image: url("../src/images/who-we-are/info-card-bg.jpg");
+  background-image: url("../src/images/who-we-are/info.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
   color: white;
 }
 
@@ -142,12 +145,13 @@ body {
   width: 51%;
   height: auto;
   top: 67.7%;
-  right: 33%;
+  right: 28%;
   transform: translate(50%, -50%);
   position: absolute;
 }
 
 .girl-text {
+  filter: brightness(0);
   width: 17%;
   height: auto;
   top: 67.7%;

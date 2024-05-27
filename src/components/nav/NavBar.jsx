@@ -2,22 +2,6 @@ import { useState } from "react";
 // import Logo from "../../images/logo/logo.png";
 import Logo from "../../images/logo/logo.svg";
 import NavList from "./NavList";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faPlus,
-//   faXmark,
-//   faLocationDot,
-//   faPhone,
-//   faEnvelope,
-//   faBars,
-//   faChartBar,
-//   faUser,
-// } from "@fortawesome/free-solid-svg-icons";
-// import {
-//   faTwitter,
-//   faInstagram,
-//   faFacebookF,
-// } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import LogoSide from "../../images/logo/logo-footer.svg";
 import SideImg1 from "../../images/gallery/gal1.jpg";
@@ -68,7 +52,7 @@ const NavBar = () => {
   return (
     <>
       <nav
-        className={`flex flex-row bg-red-400 items-center justify-between py-8 px-12 fixed top-0 left-0 right-0 w-full z-50 ${
+        className={`flex flex-row bg-transparent items-center justify-between py-8 px-12 fixed top-0 left-0 right-0 w-full z-50 ${
           sticky ? "shadow-xl !bg-black" : ""
         }`}
       >
