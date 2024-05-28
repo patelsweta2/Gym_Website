@@ -151,7 +151,7 @@ body {
 }
 
 .girl-text {
-  filter: brightness(0);
+  filter: brightness(0) invert(0.93);
   width: 17%;
   height: auto;
   top: 67.7%;
@@ -409,7 +409,7 @@ body {
 /* end of grid ^^ */
 
 .featured-cta {
-  background-image: url(../src/images/features/cta-bg.png);
+  background-image: url("../src/images/features/cta-bg.png");
   width: 100%;
   height: 21rem;
   background-position: center center;
