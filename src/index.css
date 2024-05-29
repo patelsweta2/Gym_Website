@@ -421,7 +421,7 @@ body {
 /* choose us */
 
 .choose-section {
-  background-image: url("../src/images/chooseUs/choose-bg.jpg");
+  background-image: url("../src/images/chooseUs/blackBg.jpg");
   object-fit: cover;
   background-size: cover;
   background-position: center center;
