@@ -1,4 +1,4 @@
-import VideoImg from "../../images/chooseUs/gymRope (1).jpg";
+import VideoImg from "../../images/chooseUs/main-img.png";
 import TitleRed from "../../images/who-we-are/title-bg.svg";
 import TrainingIcon from "../../images/chooseUs/training.png";
 import EquipmentsIcon from "../../images/chooseUs/bench-press.png";
@@ -13,17 +13,13 @@ const ChooseUs = () => {
       <section className="choose-section py-[12rem]">
         <div className="container page-padding flex flex-row md1000:flex-col md1000:items-center gap-[7rem]">
           <div className="video-div relative w-[60%] md1000:w-[85%] md1000:flex md1000:justify-center">
-            <img
-              src={VideoImg}
-              alt="video_img"
-              className="relative w-auto h-[65%] border-8 rotate-[-4deg]"
-            />
+            <img src={VideoImg} alt="video_img" className="relative w-auto" />
             <img
               src={PlayImg}
               alt="play_img"
-              className="absolute w-[2.4rem] top-[32%] left-[34%] z-10 cursor-pointer min450:top-[34%]"
+              className="absolute w-[2.4rem] top-[42%] left-[44%] z-10 cursor-pointer min450:left-[47%] min450:top-[44%] "
             />
-            <span className="bg-white cursor-pointer p-14 absolute rounded-full top-[29.2%] left-[30.2%]"></span>
+            <span className="bg-white cursor-pointer p-14 absolute rounded-full top-[38.7%] left-[39.9%]"></span>
           </div>
           <div className="relative w-[50%] md1000:flex md1000:flex-col md1000:items-center md1000:text-center md1000:w-[85%]">
             <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-14">
