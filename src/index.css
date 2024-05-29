@@ -421,7 +421,7 @@ body {
 /* choose us */
 
 .choose-section {
-  background-image: url("../src/images/choose-us/choose-bg.jpg");
+  background-image: url("../src/images/chooseUs/choose-bg.jpg");
   object-fit: cover;
   background-size: cover;
   background-position: center center;
@@ -431,25 +431,25 @@ body {
 
 .video-div::before {
   content: "";
-  height: 461px;
+  height: 400px;
   width: 10px;
   background-color: #ff0336;
   position: absolute;
-  top: 50%;
+  top: 45%;
   -webkit-transform: translateY(-50%) rotate(174deg);
-  transform: translateY(-50%) rotate(174deg);
-  right: 10px;
+  transform: translateY(-50%) rotate(176deg);
+  left: -23px;
 }
 
-.video-div::after {
+/* .video-div::after {
   content: "";
   height: 42%;
   width: 10px;
   background-color: #ff0336;
   position: absolute;
   bottom: 0;
-  left: -30px;
-}
+  right: 30px;
+  } */
 
 .choose-cta {
   transition: all 0.4s;
