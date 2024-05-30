@@ -5,7 +5,7 @@ const Trainers = () => {
   return (
     <>
       <section id="team" className="trainers-section">
-        <div className="container page-padding py-[22rem]">
+        <div className="container page-padding py-[10rem]">
           {/* title div  */}
           <div className="flex flex-col items-center text-center relative">
             <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-10">
