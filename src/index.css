@@ -796,3 +796,25 @@ body {
 *::-webkit-scrollbar-thumb:active {
   background-color: #a0a0a0;
 }
+.testimonial-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-box-wrapper {
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.testimonial-box {
+  height: 100%;
+  padding: 47px 50px;
+  position: relative;
+}
