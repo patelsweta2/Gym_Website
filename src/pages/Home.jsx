@@ -5,6 +5,11 @@ import ChooseUs from "../components/chooseUs/ChooseUs";
 import Trainers from "../components/trainers/Trainers";
 import Testimonials from "../components/testimonials/Testimonial";
 import Gallery from "../components/gallery/Gallery";
+import BmiCalc from "../components/bmi/BmiCalc";
+import Pricing from "../components/pricing/Pricing";
+import Blog from "../components/blog/Blog";
+import CtaBanner from "../components/ctaBanner/CtaBanner";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -16,6 +21,11 @@ const Home = () => {
       <Trainers />
       <Testimonials />
       <Gallery />
+      <BmiCalc />
+      <Pricing />
+      <Blog />
+      <CtaBanner />
+      <Footer />
     </>
   );
 };

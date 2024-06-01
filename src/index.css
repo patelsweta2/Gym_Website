@@ -525,7 +525,7 @@ body {
   grid-row-end: 3;
   grid-column-end: 3;
 
-  background-image: url("../src/images/gallery/gal1.jpg");
+  background-image: url("../src/images/gallery/gal4.jpg");
   object-fit: cover;
   background-size: cover;
   /* background-position: 0 510px; */
@@ -570,7 +570,7 @@ body {
   grid-row-end: 4;
   grid-column-end: 2;
 
-  background-image: url("../src/images/gallery/gal4.jpg");
+  background-image: url("../src/images/gallery/gal1.jpg");
   object-fit: cover;
   background-size: cover;
   /* background-position: 0 -13px; */
