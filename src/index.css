@@ -525,7 +525,7 @@ body {
   grid-row-end: 3;
   grid-column-end: 3;
 
-  background-image: url("../src/images/gallery/img1.jpg");
+  background-image: url("../src/images/gallery/gal1.jpg");
   object-fit: cover;
   background-size: cover;
   /* background-position: 0 510px; */
@@ -540,7 +540,7 @@ body {
   grid-row-end: 2;
   grid-column-end: 5;
 
-  background-image: url("../src/images/gallery/img2.jpg");
+  background-image: url("../src/images/gallery/gal2.jpg");
   object-fit: cover;
   background-size: cover;
   background-position: 0px -131px;
@@ -555,7 +555,7 @@ body {
   grid-row-end: 4;
   grid-column-end: 5;
 
-  background-image: url("../src/images/gallery/img5.jpg");
+  background-image: url("../src/images/gallery/gal3.jpg");
   object-fit: cover;
   background-size: cover;
   background-position: center;
@@ -570,7 +570,7 @@ body {
   grid-row-end: 4;
   grid-column-end: 2;
 
-  background-image: url("../src/images/gallery/img3.jpg");
+  background-image: url("../src/images/gallery/gal4.jpg");
   object-fit: cover;
   background-size: cover;
   /* background-position: 0 -13px; */
@@ -585,7 +585,7 @@ body {
   grid-row-end: 4;
   grid-column-end: 3;
 
-  background-image: url("../src/images/gallery/img4.jpg");
+  background-image: url("../src/images/gallery/gal5.jpg");
   object-fit: cover;
   background-size: cover;
   /* background-position: 0 -81px; */
@@ -817,4 +817,8 @@ body {
   height: 100%;
   padding: 47px 50px;
   position: relative;
+}
+
+.dimmed-image {
+  filter: brightness(0.5); /* Reduces brightness to 50% */
 }

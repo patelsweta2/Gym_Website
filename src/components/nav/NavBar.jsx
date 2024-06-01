@@ -4,12 +4,12 @@ import Logo from "../../images/logo/logo.svg";
 import NavList from "./NavList";
 import { Link } from "react-router-dom";
 import LogoSide from "../../images/logo/logo-footer.svg";
-import SideImg1 from "../../images/gallery/gal1.jpg";
-import SideImg2 from "../../images/gallery/gal2.jpg";
-import SideImg3 from "../../images/gallery/gal3.jpg";
-import SideImg4 from "../../images/gallery/gal4.jpg";
-import SideImg5 from "../../images/gallery/gal5.jpg";
-import SideImg6 from "../../images/gallery/gal6.png";
+import SideImg1 from "../../images/sidebar/1.jpg";
+import SideImg2 from "../../images/sidebar/2.jpg";
+import SideImg3 from "../../images/sidebar/3.jpg";
+import SideImg4 from "../../images/sidebar/4.jpg";
+import SideImg5 from "../../images/sidebar/5.jpg";
+import SideImg6 from "../../images/sidebar/6.jpg";
 
 const NavBar = () => {
   const [spin, setSpin] = useState(false);
