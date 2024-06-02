@@ -19,11 +19,11 @@ const Home = () => {
       <Featured />
       <ChooseUs />
       <Trainers />
-      <Testimonials />
       <Gallery />
       <BmiCalc />
       <Pricing />
       <Blog />
+      <Testimonials />
       <CtaBanner />
       <Footer />
     </>
