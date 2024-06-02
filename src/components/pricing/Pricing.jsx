@@ -4,8 +4,7 @@ import BgText from "../../images/pricing/bg-text.png";
 import BgDumbell from "../../images/pricing/bg-dumbell.png";
 import Img1 from "../../images/pricing/img1.jpg";
 import Img2 from "../../images/pricing/img2.jpg";
-import Img3 from "../../images/pricing/img3.jpg";
-import Price from "./../../pages/Price";
+import Img3 from "../../images/pricing/img5.jpg";
 
 const Pricing = () => {
   return (

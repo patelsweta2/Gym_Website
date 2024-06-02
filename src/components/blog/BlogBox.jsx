@@ -9,7 +9,7 @@ const BlogBox = ({ date, title, description }) => {
   };
   return (
     <>
-      <div className="w-[37rem] min540:w-[100%] shadow-xl bg-rose-300 flex flex-col px-[3rem] py-[5rem]">
+      <div className="w-[37rem] min540:w-[100%] shadow-xl bg-rose-300 border-rose-400 flex flex-col px-[3rem] py-[5rem]">
         {/* data  */}
         <p className="text-[15px] font-bold text-[#323232] border-[#323232] border-solid rounded-full border-[1px] w-fit px-5 py-2 mb-6">
           {date}

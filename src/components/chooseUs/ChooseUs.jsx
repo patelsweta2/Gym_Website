@@ -34,7 +34,7 @@ const ChooseUs = () => {
               Shape Up Your Body with Our Help!
             </h2>
             <p className="text-[16.5px] text-[#b4b4b4] mt-7 max-w-3xl md1000:max-w-[80%]">
-              Achieve the body you've always wanted with <b>Gymate</b>. Our
+              Achieve the body you've always wanted with <b>FitPhysique</b>. Our
               dedicated trainers and nutritionists will design a fitness and
               nutrition plan personalized to help you meet your specific
               objectives.

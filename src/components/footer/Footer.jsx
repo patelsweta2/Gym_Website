@@ -1,4 +1,4 @@
-import FooterLogo from "../../images/logo/logo.svg";
+import FooterLogo from "../../images/logo/logo.png";
 
 const Footer = () => {
   return (
@@ -31,8 +31,8 @@ const Footer = () => {
               />
             </div>
             <p className="text-[16px] font-medium text-[#ada1a1]">
-              Privacy Policy | © {new Date().getFullYear()} Gymate <br /> Design
-              by{" "}
+              Privacy Policy | © {new Date().getFullYear()} FitPhysique <br />{" "}
+              Design by{" "}
               <a
                 target="_blanck"
                 rel="noreferrer"

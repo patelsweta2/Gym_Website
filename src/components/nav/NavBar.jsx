@@ -1,9 +1,9 @@
 import { useState } from "react";
 // import Logo from "../../images/logo/logo.png";
-import Logo from "../../images/logo/logo.svg";
+import Logo from "../../images/logo/logo.png";
 import NavList from "./NavList";
 import { Link } from "react-router-dom";
-import LogoSide from "../../images/logo/logo-footer.svg";
+import LogoSide from "../../images/logo/logo.png";
 import SideImg1 from "../../images/sidebar/1.jpg";
 import SideImg2 from "../../images/sidebar/2.jpg";
 import SideImg3 from "../../images/sidebar/3.jpg";
@@ -61,7 +61,7 @@ const NavBar = () => {
             src={Logo}
             alt="logo_img"
             onClick={goTop}
-            className="w-full h-auto"
+            className="w-[15rem] h-auto"
           />
         </Link>
         <div className="navlist-nav">
@@ -86,7 +86,7 @@ const NavBar = () => {
                 <li onClick={toggleHamburgerMenu}>
                   <a
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium cursor-pointer hover:text-[#ff0336] ease-in duration-200"
                     href="/#home"
                   >
                     Home
@@ -95,7 +95,7 @@ const NavBar = () => {
                 <li onClick={toggleHamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium cursor-pointer hover:text-[#ff0336] ease-in duration-200"
                     to="/about"
                   >
                     About
@@ -104,7 +104,7 @@ const NavBar = () => {
                 <li onClick={toggleHamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium cursor-pointer hover:text-[#ff0336] ease-in duration-200"
                     to="/gallery/page-1"
                   >
                     Gallery
@@ -113,7 +113,7 @@ const NavBar = () => {
                 <li onClick={toggleHamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium cursor-pointer hover:text-[#ff0336] ease-in duration-200"
                     to="/schedule/monday"
                   >
                     Schedule
@@ -122,7 +122,7 @@ const NavBar = () => {
                 <li onClick={toggleHamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium cursor-pointer hover:text-[#ff0336] ease-in duration-200"
                     to="/blog"
                   >
                     Blog
@@ -131,7 +131,7 @@ const NavBar = () => {
                 <li onClick={toggleHamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium cursor-pointer hover:text-[#ff0336] ease-in duration-200"
                     to="/contact"
                   >
                     Contact
@@ -140,7 +140,7 @@ const NavBar = () => {
                 <li onClick={toggleHamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium cursor-pointer hover:text-[#ff0336] ease-in duration-200"
                     to="/pricing"
                   >
                     Pricing
@@ -149,7 +149,7 @@ const NavBar = () => {
                 <li onClick={toggleHamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium cursor-pointer hover:text-[#ff0336] ease-in duration-200"
                     to="/classes"
                   >
                     Session
@@ -159,7 +159,7 @@ const NavBar = () => {
             </div>
             <div>
               <div
-                className={`flex flex-col fixed w-[40rem] min450:w-full h-[100vh] bg-white top-0 left-0 z-[9999999999] p-[45px] gap-24 overflow-x-hidden ease-in-out duration-[0.5s] ${
+                className={`flex flex-col fixed w-[40rem] min450:w-full h-[100vh] bg-black text-white top-0 left-0 z-[9999999999] p-[45px] gap-24 overflow-x-hidden ease-in-out duration-[0.5s] ${
                   sidebar ? "translate-x-0" : "-translate-x-full"
                 }`}
               >
@@ -174,12 +174,13 @@ const NavBar = () => {
                 {/* about-us */}
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[2rem] font-bold">About Us</h3>
-                  <p className="text-[1.6rem] fot-medium text-[#000000b1]">
-                    Welcome to Gymate Our mission is to create a friendly and
-                    motivating environment for all fitness levels. We offer a
-                    variety of classes, including HIIT, yoga, strength training,
-                    and cardio. Our trainers provide personalized programs and
-                    nutrition advice to support your journey to better health.
+                  <p className="text-[1.6rem] fot-medium">
+                    Welcome to FitPhysique Our mission is to create a friendly
+                    and motivating environment for all fitness levels. We offer
+                    a variety of classes, including HIIT, yoga, strength
+                    training, and cardio. Our trainers provide personalized
+                    programs and nutrition advice to support your journey to
+                    better health.
                   </p>
                 </div>
                 {/* gallery  */}
@@ -221,15 +222,15 @@ const NavBar = () => {
                 {/* contact */}
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[2rem] font-bold">Contact Info</h3>
-                  <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
+                  <p className="text-[1.6rem] font-medium  hover:text-[#ff0336] cursor-pointer ease-in duration-200">
                     <i className=" fa-solid fa-location-dot text-[#ff0336]" />
                     &nbsp; Ram Krishna Nagar, patna
                   </p>
-                  <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
+                  <p className="text-[1.6rem] font-medium  hover:text-[#ff0336] cursor-pointer ease-in duration-200">
                     <i className="fa-solid fa-phone text-[#ff0336]" />
                     +91- 1000300670
                   </p>
-                  <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
+                  <p className="text-[1.6rem] font-medium  hover:text-[#ff0336] cursor-pointer ease-in duration-200">
                     <i className="fa-solid fa-envelope text-[#ff0336]" />
                     &nbsp; gymabc@gxmail.com
                   </p>

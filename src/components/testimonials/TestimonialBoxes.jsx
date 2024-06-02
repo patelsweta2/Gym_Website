@@ -3,17 +3,17 @@ import { useState, useEffect } from "react";
 
 const testimonials = [
   {
-    text: "I've been part of Gymate for 6 months, and it's been incredible. The trainers are skilled and supportive, the equipment is high-quality, and the community is welcoming and motivating.",
+    text: "I've been part of FitPhysique for 6 months, and it's been incredible. The trainers are skilled and supportive, the equipment is high-quality, and the community is welcoming and motivating.",
     name: "Ravi Shashtri",
     job: "Indian Actor",
   },
   {
-    text: "I've been part of Gymate for 6 months, and it's been incredible. The trainers are skilled and supportive, the equipment is high-quality, and the community is welcoming and motivating.",
+    text: "I've been part of FitPhysique for 6 months, and it's been incredible. The trainers are skilled and supportive, the equipment is high-quality, and the community is welcoming and motivating.",
     name: "Ravi Shashtri",
     job: "Indian Actor",
   },
   {
-    text: "I've been part of Gymate for 6 months, and it's been incredible. The trainers are skilled and supportive, the equipment is high-quality, and the community is welcoming and motivating.",
+    text: "I've been part of FitPhysique for 6 months, and it's been incredible. The trainers are skilled and supportive, the equipment is high-quality, and the community is welcoming and motivating.",
     name: "Ravi Shashtri",
     job: "Indian Actor",
   },
