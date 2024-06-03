@@ -9,14 +9,14 @@ const BlogBox = ({ date, title, description }) => {
   };
   return (
     <>
-      <div className="w-[37rem] min540:w-[100%] shadow-xl bg-rose-300 border-rose-400 flex flex-col px-[3rem] py-[5rem]">
+      <div className="w-[37rem] min540:w-[100%] shadow-xl bg-zinc-400 border-rose-400 flex flex-col px-[3rem] py-[5rem]">
         {/* data  */}
-        <p className="text-[15px] font-bold text-[#323232] border-[#323232] border-solid rounded-full border-[1px] w-fit px-5 py-2 mb-6">
+        <p className="text-[15px] font-bold text-white border-white border-solid rounded-full border-[1px] w-fit px-5 py-2 mb-6">
           {date}
         </p>
         {/* title  */}
-        <h3 className="text-[22px] font-bold py-5">{title}</h3>
-        <p className="text-[15px] text-[#646464] font-medium">{description}</p>
+        <h3 className="text-[22px] font-bold py-5 text-white">{title}</h3>
+        <p className="text-[15px] text-white font-medium">{description}</p>
         {/* blog cta  */}
         <Link
           to="/blog"

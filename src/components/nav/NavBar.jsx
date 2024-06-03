@@ -232,7 +232,7 @@ const NavBar = () => {
                   </p>
                   <p className="text-[1.6rem] font-medium  hover:text-[#ff0336] cursor-pointer ease-in duration-200">
                     <i className="fa-solid fa-envelope text-[#ff0336]" />
-                    &nbsp; gymabc@gxmail.com
+                    &nbsp; fitphysique@gxmail.com
                   </p>
                 </div>
                 {/* follow-us  */}
