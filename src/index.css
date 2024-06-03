@@ -739,7 +739,7 @@ body {
 }
 
 .blog-banner {
-  background-image: url("../src/images/blogpage/sidebar1.png");
+  background-image: url("../src/images/blogPage/sidebar.jpg");
   object-fit: cover;
   background-size: cover;
   background-position: center;
