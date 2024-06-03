@@ -5,6 +5,7 @@ import Blog from "./pages/Blog";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Classes from "./pages/Classes";
+import Price from "./pages/Price";
 // import { AuthContextProvider } from "./context/AuthContext";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="contact" element={<Contact />} />
         <Route path="classes" element={<Classes />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="pricing" element={<Price />} />
       </Routes>
       {/* </AuthContextProvider> */}
     </>
